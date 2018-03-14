@@ -8,12 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		7129C5DB205954E60067FC9B /* BridgingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7129C5D9205954E60067FC9B /* BridgingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7129C6132059806B0067FC9B /* Geocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7129C6122059806B0067FC9B /* Geocoder.swift */; };
+		7129C648205981F00067FC9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7129C637205981F00067FC9B /* InfoPlist.strings */; };
+		7129C649205981F00067FC9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7129C639205981F00067FC9B /* Images.xcassets */; };
+		7129C64A205981F00067FC9B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7129C63A205981F00067FC9B /* Info.plist */; };
+		7129C64B205981F00067FC9B /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7129C63B205981F00067FC9B /* Launch.storyboard */; };
+		7129C64C205981F00067FC9B /* LMAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7129C63C205981F00067FC9B /* LMAppDelegate.h */; };
+		7129C64D205981F00067FC9B /* LMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7129C63D205981F00067FC9B /* LMAppDelegate.m */; };
+		7129C64E205981F00067FC9B /* LMGeocoder-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7129C63E205981F00067FC9B /* LMGeocoder-Info.plist */; };
+		7129C64F205981F00067FC9B /* LMGeocoder-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 7129C63F205981F00067FC9B /* LMGeocoder-Prefix.pch */; };
+		7129C650205981F00067FC9B /* LMGeocoderFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7129C640205981F00067FC9B /* LMGeocoderFramework.h */; };
+		7129C651205981F00067FC9B /* LMLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7129C641205981F00067FC9B /* LMLabel.h */; };
+		7129C652205981F00067FC9B /* LMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7129C642205981F00067FC9B /* LMLabel.m */; };
+		7129C653205981F00067FC9B /* LMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7129C643205981F00067FC9B /* LMViewController.h */; };
+		7129C654205981F00067FC9B /* LMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7129C644205981F00067FC9B /* LMViewController.m */; };
+		7129C655205981F00067FC9B /* LMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7129C645205981F00067FC9B /* LMViewController.xib */; };
+		7129C656205981F00067FC9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7129C646205981F00067FC9B /* main.m */; };
+		7129C657205981F00067FC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7129C647205981F00067FC9B /* Main.storyboard */; };
+		7129C65C205983000067FC9B /* LMAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7129C658205983000067FC9B /* LMAddress.m */; };
+		7129C65D205983000067FC9B /* LMGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7129C659205983000067FC9B /* LMGeocoder.m */; };
+		7129C65E205983000067FC9B /* LMAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 7129C65A205983000067FC9B /* LMAddress.h */; };
+		7129C65F205983000067FC9B /* LMGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7129C65B205983000067FC9B /* LMGeocoder.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7129C5D6205954E60067FC9B /* BridgingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BridgingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7129C5D9205954E60067FC9B /* BridgingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingFramework.h; sourceTree = "<group>"; };
 		7129C5DA205954E60067FC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7129C6122059806B0067FC9B /* Geocoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geocoder.swift; sourceTree = "<group>"; };
+		7129C638205981F00067FC9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7129C639205981F00067FC9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7129C63A205981F00067FC9B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7129C63B205981F00067FC9B /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		7129C63C205981F00067FC9B /* LMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAppDelegate.h; sourceTree = "<group>"; };
+		7129C63D205981F00067FC9B /* LMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAppDelegate.m; sourceTree = "<group>"; };
+		7129C63E205981F00067FC9B /* LMGeocoder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LMGeocoder-Info.plist"; sourceTree = "<group>"; };
+		7129C63F205981F00067FC9B /* LMGeocoder-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LMGeocoder-Prefix.pch"; sourceTree = "<group>"; };
+		7129C640205981F00067FC9B /* LMGeocoderFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMGeocoderFramework.h; sourceTree = "<group>"; };
+		7129C641205981F00067FC9B /* LMLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLabel.h; sourceTree = "<group>"; };
+		7129C642205981F00067FC9B /* LMLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLabel.m; sourceTree = "<group>"; };
+		7129C643205981F00067FC9B /* LMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMViewController.h; sourceTree = "<group>"; };
+		7129C644205981F00067FC9B /* LMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMViewController.m; sourceTree = "<group>"; };
+		7129C645205981F00067FC9B /* LMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMViewController.xib; sourceTree = "<group>"; };
+		7129C646205981F00067FC9B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7129C647205981F00067FC9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7129C658205983000067FC9B /* LMAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAddress.m; sourceTree = "<group>"; };
+		7129C659205983000067FC9B /* LMGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMGeocoder.m; sourceTree = "<group>"; };
+		7129C65A205983000067FC9B /* LMAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAddress.h; sourceTree = "<group>"; };
+		7129C65B205983000067FC9B /* LMGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMGeocoder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +88,39 @@
 		7129C5D8205954E60067FC9B /* BridgingFramework */ = {
 			isa = PBXGroup;
 			children = (
+				7129C636205981F00067FC9B /* LMGeocoderFramework */,
 				7129C5D9205954E60067FC9B /* BridgingFramework.h */,
 				7129C5DA205954E60067FC9B /* Info.plist */,
+				7129C6122059806B0067FC9B /* Geocoder.swift */,
 			);
 			path = BridgingFramework;
+			sourceTree = "<group>";
+		};
+		7129C636205981F00067FC9B /* LMGeocoderFramework */ = {
+			isa = PBXGroup;
+			children = (
+				7129C637205981F00067FC9B /* InfoPlist.strings */,
+				7129C639205981F00067FC9B /* Images.xcassets */,
+				7129C63A205981F00067FC9B /* Info.plist */,
+				7129C63B205981F00067FC9B /* Launch.storyboard */,
+				7129C63C205981F00067FC9B /* LMAppDelegate.h */,
+				7129C63D205981F00067FC9B /* LMAppDelegate.m */,
+				7129C63E205981F00067FC9B /* LMGeocoder-Info.plist */,
+				7129C63F205981F00067FC9B /* LMGeocoder-Prefix.pch */,
+				7129C640205981F00067FC9B /* LMGeocoderFramework.h */,
+				7129C65A205983000067FC9B /* LMAddress.h */,
+				7129C658205983000067FC9B /* LMAddress.m */,
+				7129C65B205983000067FC9B /* LMGeocoder.h */,
+				7129C659205983000067FC9B /* LMGeocoder.m */,
+				7129C641205981F00067FC9B /* LMLabel.h */,
+				7129C642205981F00067FC9B /* LMLabel.m */,
+				7129C643205981F00067FC9B /* LMViewController.h */,
+				7129C644205981F00067FC9B /* LMViewController.m */,
+				7129C645205981F00067FC9B /* LMViewController.xib */,
+				7129C646205981F00067FC9B /* main.m */,
+				7129C647205981F00067FC9B /* Main.storyboard */,
+			);
+			path = LMGeocoderFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +130,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7129C651205981F00067FC9B /* LMLabel.h in Headers */,
+				7129C64F205981F00067FC9B /* LMGeocoder-Prefix.pch in Headers */,
+				7129C64C205981F00067FC9B /* LMAppDelegate.h in Headers */,
+				7129C65F205983000067FC9B /* LMGeocoder.h in Headers */,
+				7129C650205981F00067FC9B /* LMGeocoderFramework.h in Headers */,
+				7129C65E205983000067FC9B /* LMAddress.h in Headers */,
+				7129C653205981F00067FC9B /* LMViewController.h in Headers */,
 				7129C5DB205954E60067FC9B /* BridgingFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +173,7 @@
 				TargetAttributes = {
 					7129C5D5205954E60067FC9B = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -121,6 +200,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7129C657205981F00067FC9B /* Main.storyboard in Resources */,
+				7129C648205981F00067FC9B /* InfoPlist.strings in Resources */,
+				7129C649205981F00067FC9B /* Images.xcassets in Resources */,
+				7129C64E205981F00067FC9B /* LMGeocoder-Info.plist in Resources */,
+				7129C64A205981F00067FC9B /* Info.plist in Resources */,
+				7129C64B205981F00067FC9B /* Launch.storyboard in Resources */,
+				7129C655205981F00067FC9B /* LMViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,10 +217,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7129C656205981F00067FC9B /* main.m in Sources */,
+				7129C6132059806B0067FC9B /* Geocoder.swift in Sources */,
+				7129C65D205983000067FC9B /* LMGeocoder.m in Sources */,
+				7129C654205981F00067FC9B /* LMViewController.m in Sources */,
+				7129C652205981F00067FC9B /* LMLabel.m in Sources */,
+				7129C64D205981F00067FC9B /* LMAppDelegate.m in Sources */,
+				7129C65C205983000067FC9B /* LMAddress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7129C637205981F00067FC9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7129C638205981F00067FC9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7129C5DC205954E60067FC9B /* Debug */ = {
@@ -253,6 +357,7 @@
 		7129C5DF205954E60067FC9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mb.BridgingFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +380,7 @@
 		7129C5E0205954E60067FC9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
